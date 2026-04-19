@@ -1,0 +1,20 @@
+nums = [4,3,6,7,8,4]
+#evens = []
+
+# for i in nums:
+#     if i % 2 == 0:
+#         evens.append(i)
+
+# def is_even(n):
+#     return n % 2 == 0
+
+#is_even = lambda n : n % 2 == 0
+#evens = list(filter(is_even, nums))
+evens = list(filter(lambda n : n % 2 == 0, nums))
+
+print(evens)
+
+lst = [10, 55, 32, 75, 90, 41, 68]
+
+greater = list(filter(lambda n : n > 50, lst))
+print(greater)
